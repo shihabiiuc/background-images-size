@@ -1,0 +1,128 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0 0 10px;
+}
+
+.example {
+  padding: 90px 15px;
+}
+
+.container {
+  padding: 0.25rem;
+  border-radius: 4px;
+  border: 1px solid #ff1c37;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.container--content {
+  min-height: 300px;
+  background-image: url("https://shihabiiuc.com/wp-content/uploads/2022/01/light-bulbs-infographics.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container--content p {
+  font-size: 1.375em;
+  margin: 0 15px;
+  color: #fff;
+}
+
+.example-1 {
+  background-color: #fff5f5;
+}
+.example-1 .container--content {
+  background-size: cover;
+}
+
+.example-2 {
+  background-color: #e9ebec;
+}
+.example-2 .container--content {
+  background-size: contain;
+  background-color: #222222;
+}
+
+.example-3 {
+  background-image: url("https://shihabiiuc.com/wp-content/uploads/2022/01/light-bulbs-infographics.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.example-3 p {
+  color: #FFFFFF;
+  font-size: 2em;
+  text-align: center;
+}
+
+.example-4 {
+  background-color: #e9ebec;
+}
+.example-4 .container--content {
+  background-size: 384px 216px;
+  background-position: center right;
+  background-color: #193549;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.example-4 .container--content p {
+  max-width: 300px;
+}
+
+.example-bonus {
+  background-color: #deebff;
+}
+.example-bonus .container--content {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+}
+@media (min-width: 768px) {
+  .example-bonus .container--content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+.example-bonus .container--content p {
+  font-size: 4em;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.6);
+}/*# sourceMappingURL=style.css.map */
