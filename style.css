@@ -32,11 +32,26 @@ h3 {
   background-image: url("https://shihabiiuc.com/wp-content/uploads/2022/01/light-bulbs-infographics.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .container--content p {
-  font-size: 1.375em;
+  font-weight: bold;
   margin: 0 15px;
-  color: #fff;
+  color: rgba(255, 28, 55, 0.8);
+  font-size: 1.6em;
+}
+@media (min-width: 768px) {
+  .container--content p {
+    font-size: 7em;
+  }
 }
 
 .example-1 {
@@ -97,6 +112,8 @@ h3 {
 }
 .example-4 .container--content p {
   max-width: 300px;
+  font-size: 1.6em;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .example-bonus {
@@ -122,7 +139,12 @@ h3 {
   }
 }
 .example-bonus .container--content p {
-  font-size: 4em;
   font-weight: bold;
   color: rgba(255, 255, 255, 0.6);
+  font-size: 1.6em;
+}
+@media (min-width: 768px) {
+  .example-bonus .container--content p {
+    font-size: 4em;
+  }
 }/*# sourceMappingURL=style.css.map */
